@@ -43,13 +43,17 @@ df['y'].head()
 
 
 plt.scatter(df['x'], df['y'])
+plt.xlabel('X Axis')
+plt.ylabel('Y Axis')
+plt.title('Scatter')
+plt.savefig('scatter_plot.png')
 plt.show
 
 
 # In[13]:
 
 
-get_ipython().system('pip install scikit-learn')
+#get_ipython().system('pip install scikit-learn')
 
 
 # In[14]:
@@ -121,6 +125,8 @@ plt.plot(df['x'], y_pred)
 plt.xlabel('X Axis')
 plt.ylabel('Y Axis')
 plt.title('Linear Regression')
+plt.savefig('linear_plot.png')
+
 plt.show()
 
 
